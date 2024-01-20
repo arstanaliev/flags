@@ -79,8 +79,11 @@ function displayFlags() {
 function Flag(flag) { 
   let img = document.createElement('img');
   let div =document.createElement('div') 
+  let name = document.createElement('name')
   img.src = flag; 
+  
   div.append(img)
+  div.append(name)
   getCarta.append(div)
 } 
  
